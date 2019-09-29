@@ -60,7 +60,7 @@ async def setlang(prog):
 async def carbon_api(e):
     """ A Wrapper for carbon.now.sh """
     await e.edit("`Processing..`")
-    CARBON = 'https://carbon.now.sh/?l={lang}&code={code}'
+    CARBON = 'https://carbon.now.sh/?bg=rgba(0%252C132%252C253%252C1)&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=0px&wc=true&wa=true&pv=62px&ph=64px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=139%2525&si=false&es=2x&wm=false&code='
     global CARBONLANG
     textx = await e.get_reply_message()
     pcode = e.text
